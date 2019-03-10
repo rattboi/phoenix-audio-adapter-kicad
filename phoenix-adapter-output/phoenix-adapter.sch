@@ -1,21 +1,12 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:db-connectors
-LIBS:db-diodes
-LIBS:db-mcu
-LIBS:db-memory
-LIBS:db-passives
-LIBS:db-sem
-LIBS:db-transistors
-LIBS:db-vgparts
+EESchema Schematic File Version 4
 LIBS:phoenix-adapter-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Phoenix Connector Audio Adapter Output"
-Date "2018-04-28"
+Title "Phoenix Connector Audio Adapter"
+Date "2018-03-29"
 Rev "0.1"
 Comp "db Electronics"
 Comment1 "Licensed Under The CERN OHL v.1.2"
@@ -567,37 +558,38 @@ C3 4E EA F9 43 51 69 F1 E7 1F 27 08 64 6B 61 83 10 1A DB 7D 78 6E 69 C1 17 5F DB
 EndData
 $EndBitmap
 $Comp
-L RCJ-2223 CON101
+L Connector:Conn_01x03_Male CON101
 U 1 1 5ABE576C
-P 5250 2950
-F 0 "CON101" H 5350 3025 50  0000 C CNN
-F 1 "RCJ-2223" H 5450 3100 50  0000 C CNN
-F 2 "db-thparts:RCJ-2223" H 5775 3525 60  0001 C CNN
-F 3 "https://www.cui.com/product/resource/rcj-22xx.pdf" H 6475 3225 60  0001 C CNN
-F 4 "CP-1435-ND" H 5575 3325 60  0001 C CNN "Digikey"
-F 5 "CONN RCA JACK MONO 3.2MM R/A" H 6050 3425 60  0001 C CNN "Description"
-	1    5250 2950
+P 5050 3100
+F 0 "CON101" H 5155 2935 50  0000 C CNN
+F 1 "JSTXH" H 5135 3320 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal" H 5575 3675 60  0001 C CNN
+F 3 "" H 6275 3375 60  0001 C CNN
+F 4 "CONN JST XH 3-Pin Side" H 5850 3575 60  0001 C CNN "Description"
+	1    5050 3100
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR0101
 U 1 1 5ABE5F05
-P 5250 3450
-F 0 "#PWR?" H 5250 3200 50  0001 C CNN
-F 1 "GND" H 5250 3300 50  0000 C CNN
-F 2 "" H 5250 3450 50  0001 C CNN
-F 3 "" H 5250 3450 50  0001 C CNN
-	1    5250 3450
+P 6030 3265
+F 0 "#PWR0101" H 6030 3015 50  0001 C CNN
+F 1 "GND" H 6030 3115 50  0000 C CNN
+F 2 "" H 6030 3265 50  0001 C CNN
+F 3 "" H 6030 3265 50  0001 C CNN
+	1    6030 3265
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5600 3175 5950 3175
-Wire Wire Line
-	5600 3025 5950 3025
-Wire Wire Line
-	5250 3325 5250 3450
-Text Label 5650 3175 0    60   ~ 0
+Text Label 5650 3200 0    60   ~ 0
 LEFT
-Text Label 5650 3025 0    60   ~ 0
+Text Label 5650 3000 0    60   ~ 0
 RIGHT
+Wire Wire Line
+	6030 3100 6030 3265
+Wire Wire Line
+	5250 3100 6030 3100
+Wire Wire Line
+	5250 3200 5950 3200
+Wire Wire Line
+	5250 3000 5950 3000
 $EndSCHEMATC
