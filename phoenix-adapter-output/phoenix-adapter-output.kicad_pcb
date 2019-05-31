@@ -158,7 +158,7 @@
     )
   )
 
-  (gr_text IN (at 136.906 110.236) (layer B.SilkS)
+  (gr_text OUT (at 137.922 109.601) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text tinkerplunk.com (at 142.0495 114.7445) (layer B.SilkS)
