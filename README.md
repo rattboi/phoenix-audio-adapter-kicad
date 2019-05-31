@@ -27,9 +27,5 @@ This folder contains a PCB which leaves L- and R- floating.
 
 # Changelog
 
-## 0.1
-Initial commit. Uses the CP1-3523N-ND part. Future revisions may use a different part.
-
-## 0.2
-Fixed an incorrect plated slot that did not load correctly in OSHPark. The board should still show an error for "unsupported drill holes"
-but OSHPark should produce it correctly and the preview appears correct.
+## 1.0
+Initial commit. Uses the CUI SJ1-352XN or NG part.
