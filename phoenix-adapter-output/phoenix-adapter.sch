@@ -14,8 +14,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Phoenix Connector Audio Adapter Output"
-Date "2018-04-28"
+Title "Phoenix Connector Audio Adapter"
+Date "2018-03-29"
 Rev "0.1"
 Comp "db Electronics"
 Comment1 "Licensed Under The CERN OHL v.1.2"
