@@ -1,7 +1,15 @@
-# Copyright and Disclaimer
-Original - Copyright: René Richard
+# Phoenix Version
 
-This Version - Copyright: Jacob Proctor
+Modified by Bradon Kanyid (rattboi)
+
+This version uses a JST XH side header instead of RCA jacks. 
+
+This is meant to be paired with https://github.com/rattboi/extron-scart-adapter/
+
+The zipped gerbers in phoenix-adapter/phoenix-adapter-output are ready to go for a site like jlcpcb.com
+
+# Copyright and Disclaimer
+Copyright: René Richard
 
 This documentation describes Open Hardware and is licensed under the
 CERN OHL v. 1.2.
@@ -14,18 +22,13 @@ PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable
 conditions
 
 # Phoenix Audio Adapter
-This is a modification of the original board which allows a stereo headphone jack (Digikey# CP1-3523N-ND) to be interfaced to a standard 5pin 3.5mm Phoenix connector.
+I didn't want to have a bunch of stripped wire connectors on my Extron Crosspoint 12x4 video switch so I decided to make this simple adapter which allows a stacked RCA stereo audio jack (Digikey# CP-1435-ND) to be interfaced to a standard 5pin 3.5mm Phoenix connector.
 
 # Output Differences
 The Extron Audio output wiring is different than the input wiring. There are 2 PCBs in this project. Be sure to use the output PCB for your outputs!
 
-## Phoenix Input 
+## Phoenix Adapter 
 This folder contains a PCB which connects L- and R-. You "can" use this PCB for all your needs, provided you cut the R- and L- traces for outputs. If you forget to cut the traces it's probably not a big deal since there is internal resistance (50 ohms or so) in line which each output. Obviously best if they are cut, but not catastrophic by any means.
 
-## Phoenix Output
+## Phoenix Adapter Output
 This folder contains a PCB which leaves L- and R- floating.
-
-# Changelog
-
-## 1.0
-Initial commit. Uses the CUI SJ1-352XN or NG part.
