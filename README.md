@@ -1,3 +1,13 @@
+# Phoenix Version
+
+Modified by Bradon Kanyid (rattboi)
+
+This version uses a JST XH side header instead of RCA jacks. 
+
+This is meant to be paired with https://github.com/rattboi/extron-scart-adapter/
+
+The zipped gerbers in phoenix-adapter/phoenix-adapter-output are ready to go for a site like jlcpcb.com
+
 # Copyright and Disclaimer
 Copyright: René Richard
 
